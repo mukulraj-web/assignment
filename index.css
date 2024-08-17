@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:  #28375d6f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+
+}
+@media screen and (min-width:520px)and (max-width:600px) {
+    body{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:450px)and (max-width:520px) {
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:380px)and (max-width:450px) {
+    body{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:379px) {
+    body{
+        font-size: 10px;
+    }
+}
+
+
+
+h2,h3 {
+    color:#7578fb;
+    padding-top:10px;
+}
+
+
+
+
+
+
+#container {
+   
+    width: 80%;
+    padding-left:10px;
+    padding-top:5px ;
+    height: 650px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: nowrap;
+  
+   
+    
+}
+/* styles.css */
+
+/* Apply styles to the entire table */
+.table {
+    border-collapse: collapse;
+    max-width: 95%;
+    margin: 20px;
+    border-radius: 10px; /* Add margin around the table */
+}
+
+/* Style the table header cells */
+.table th {
+    background-color: #6366f1;
+    padding: 10px;
+    text-align: left;
+   
+    text-align: center;
+
+}
+
+/* Style the table data cells */
+.table td {
+    padding: 10px;
+    width: 33vw;
+ 
+}
+.table tr {
+    border: 1px solid rgba(221, 221, 221, 0.5);
+    border-radius: 10px;
+    max-height: 50px;
+
+}
+/* changing to dark mode*/
+.dark-mode {
+    color: #e2e8f0;
+    background-color: #556784;
+}
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}
